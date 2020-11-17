@@ -6,9 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 # END: Dependencies
 
+
 # BEGIN: Utility Functions
-
-
 def squared_dist(u, v):
     running_total = 0
     for i in range(len(u)):
